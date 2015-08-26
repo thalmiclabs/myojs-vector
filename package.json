@@ -1,0 +1,26 @@
+{
+  "name": "myojs-vector",
+  "version": "0.0.0",
+  "description": "Provides rotational vectors for myo.js",
+  "main": "vector.myo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thalmiclabs/myojs-vector.git"
+  },
+  "keywords": [
+    "myo",
+    "myo.js",
+    "mouse",
+    "vector",
+    "rotations"
+  ],
+  "author": "Scott Tolksdorf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thalmiclabs/myojs-vector/issues"
+  },
+  "homepage": "https://github.com/thalmiclabs/myojs-vector"
+}
