@@ -62,3 +62,12 @@ label{
 	display : inline-block;
 	width   : 100px;
 }
+.warningPulse{
+	animation                 : pulse 2s ease-out;
+	animation-iteration-count : infinite;
+}
+@keyframes pulse {
+	0%   {opacity : 1}
+	50%  {opacity : 0.1}
+	100% {opacity : 1}
+}

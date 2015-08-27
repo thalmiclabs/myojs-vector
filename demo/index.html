@@ -82,17 +82,12 @@
 			font-size                 : 1em;
 			font-weight               : 800;
 			text-transform            : uppercase;
-			animation                 : pulsate 2s ease-out;
-			animation-iteration-count : infinite;
+			color                     : #c14b2a;
 		}
 		.gimbleLock.show{
 			opacity : 1;
 		}
-		@keyframes pulsate {
-			0%   {color : #c14b2a}
-			50%  {color : #602515}
-			100% {color : #c14b2a}
-		}
+
 		</style>
 	</head>
 	<body>
@@ -128,7 +123,7 @@
 			<button onclick='myMyo.zeroOrientation()'>Zero Orientation</button>
 
 			<div class='gimbleLock'>
-				<div class='warning'>Gimble Lock detected!</div>
+				<div class='warning warningPulse'>Gimble Lock detected!</div>
 				<a target="_blank" href='http://developerblog.myo.com/quaternions/'>for more information</a>
 			</div>
 		</div>
