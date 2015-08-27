@@ -2,6 +2,8 @@
 
 A plugin for [Myo.js](https://github.com/thalmiclabs/myo.js) that provides rotational vectors.
 
+[See it in acton here](http://thalmiclabs.github.io/myojs-vector/demo/) (requires a myo!)
+
 Whenever the Myo receives an `orientation` event, it will now emit a `vector` event, with a data object that was a `x`, `y`, and `theta`, all ranging from -1 to 1.
 
 **Note:** These numbers are very dependant on the Myo being orientated properly. Make sure to use `myo.zeroOrientation()` often to correct for any drift.
