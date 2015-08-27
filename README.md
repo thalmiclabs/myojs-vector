@@ -1,4 +1,20 @@
 # myojs-vector
-Provides a rotational vector for Myo.js. Useful for 'mouse' control on websites.
 
-`vector.myo.js` emits a `vector` event with an `x`, `y`, and `theta`. Each value will be between -1 and 1.
+A plugin for [Myo.js](https://github.com/thalmiclabs/myo.js) that provides rotational vectors.
+
+Whenever the Myo receives an `orientation` event, it will now emit a `vector` event, with a data object that was a `x`, `y`, and `theta`, all ranging from -1 to 1.
+
+**Note:** These numbers are very dependant on the Myo being orientated properly. Make sure to use `myo.zeroOrientation()` often to correct for any drift.
+
+
+```
+	Myo.on('vector', function(vector){
+		console.log('x', vector.x);
+		console.log('y', vector.y);
+		console.log('theta', vector.theta);
+	});
+```
+
+#### applications
+
+This can be used for mouse control on webpages, or zone detection to reduce false positives for poses. eg. Only accept poses while the user has their arm down to their side (helps with hand talkers).
