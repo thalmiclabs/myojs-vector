@@ -20,3 +20,5 @@ Whenever the Myo receives an `orientation` event, it will now emit a `vector` ev
 #### applications
 
 This can be used for mouse control on webpages, or zone detection to reduce false positives for poses. eg. Only accept poses while the user has their arm down to their side (helps with hand talkers).
+
+Check out the [demo](/demo) for an example of how to use it.
