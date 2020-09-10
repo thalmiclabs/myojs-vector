@@ -1,5 +1,7 @@
 # myojs-vector
 
+> North (formerly Thalmic Labs), the creator of the Myo armband, was acquired by Google in June 2020. Myo sales ended in October 2018 and Myo software, hardware and SDKs are no longer available or supported. [Learn more.](https://support.getmyo.com)
+
 A plugin for [Myo.js](https://github.com/thalmiclabs/myo.js) that provides rotational vectors.
 
 **[See it in action here](http://thalmiclabs.github.io/myojs-vector/demo/)** <small>(requires a myo!)</small>
